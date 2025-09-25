@@ -4,4 +4,28 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: rgb(220, 227, 236);
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+aside {
+  flex: 1; /* takes 1 part */
+  overflow-y: auto; /* scroll if content is tall */
+}
+header, footer {
+  background: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
 }
