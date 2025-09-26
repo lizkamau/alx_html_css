@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: rgb(220, 227, 236);
+  background-color: rgb(227, 233, 240);
   
   body{
     display: flex;
@@ -19,6 +19,15 @@ main{
 article{
     flex: 2;
     overflow-y: auto;
+    color: blueviolet;
+    line-height: 1.5;
+
+}
+article h2 {
+    margin-top: 1.5rem;
+    color: rgb(20, 20, 19);
+
+
 }
 aside {
   flex: 1; /* takes 1 part */
