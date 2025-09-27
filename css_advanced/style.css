@@ -1,0 +1,44 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+/* Make nav a flexbox container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* logo left, menu right */
+  align-items: center; /* vertically center items */
+  padding: 15px 50px; /* spacing inside nav */
+  background-color: transparent; /* or pick a color */
+}
+
+/* Logo image sizing */
+.logo img {
+  width: 120px; /* adjust size */
+  height: auto;
+}
+
+/* Remove list styling from menu */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* space between links */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style links */
+.menu a {
+  text-decoration: none;
+  color: white; /* change depending on background */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.menu a:hover {
+  color: #ff66cc; /* highlight on hover */
+}
